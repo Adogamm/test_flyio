@@ -1,4 +1,4 @@
-app = "MC-SERVER"
+app = "mcserver"
 primary_region = "iad"
 
 [build]
