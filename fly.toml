@@ -1,8 +1,10 @@
-app = "mcserver"
+app = "tu-nombre-de-app"
 primary_region = "iad"
 
 [build]
 dockerfile = "Dockerfile"
+# Agregamos esta línea para ignorar la autodetección
+ignorefile = "" 
 
 [[services]]
 protocol = "udp"
