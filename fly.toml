@@ -1,0 +1,11 @@
+app = "MC-SERVER"
+primary_region = "iad"
+
+[build]
+dockerfile = "Dockerfile"
+
+[[services]]
+protocol = "udp"
+internal_port = 25565
+[[services.ports]]
+port = 25565
